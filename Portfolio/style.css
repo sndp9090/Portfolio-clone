@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family:'Anek Malayalam', sans-serif;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(115, 112, 112);
+}
+#intro{
+    font-size:40px;
+    font-family:'Poppins', sans-serif;
+    font-weight:900;
+}
+#highlight{
+    background-color:rgb(77, 77, 234);
+    padding:3px 15px;
+
+    border-radius:25px;
+    font-size:23px;
+}
+
+#nav-title{
+    margin-left:60px;
+    font-size:40px;
+    font-weight:500;
+}
+#dot{
+    color:red;
+}
+#btn{
+    display: inline;
+    float:right;
+}
+
+.nav-items{
+    padding: 0 20px;
+}
+.nav-items:hover{
+    color:rgb(231, 112, 69);
+}
+#items{
+    margin: auto;
+}
+
+main{
+        display:flex;
+        justify-content:space-between;  
+}
+#intro p{
+    margin: 20px 60px;
+}
+#fn{
+    font-size:18px;
+    margin: 0 60px;
+}
+#bttn{
+    margin: 30px 60px;
+    padding:10px;
+    background-color: rgb(236, 72, 18);
+    border : 1px solid transparent;
+    font-size:16px;
+    color:white;
+}
+#bttn:hover{
+    color:rgb(93, 93, 129);
+}
+#projects{
+    margin:0;
+    font-weight:700;
+}
+#msg{
+    font-weight: 400;
+    margin-left:60px;
+}
+#msg span{
+    font-weight:600;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#foot{
+    color:rgb(244, 244, 244);
+    font-size:20px;
+    font-weight:600px;
+    padding:20px 0;
+    margin-left: auto 60px;
+    height:130px;
+}
+#foot button{
+    margin-top:8px;
+    background: rgb(231, 231, 1);
+    padding:8px;
+}
+
+#container-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bottom-last{
+    width:660px;
+    height:165px;
+    display:flex;
+    justify-content:space-around;
+    background-color: rgb(35, 35, 35);
+}
+
+#capacity{
+    height:145px;
+    color:rgb(244, 244, 243);
+    padding:0;
+    margin:auto 0;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+.num{
+    width:180px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+    border-bottom:1px solid rgb(127, 127, 127);
+}
+#capacity .cp{
+    padding:0;
+}
+
+#img-container ,
+img {
+    width:"540px";
+    height:"540px";
+    object-fit:"cover"
+}
+
+
+
+
+
+
+
+
+
